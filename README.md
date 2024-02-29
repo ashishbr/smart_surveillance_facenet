@@ -1,6 +1,7 @@
-# FaceRecognition
+# Smart Survellience using MTCNN and FACENET
 Webcam face recognition using tensorflow and opencv.
 The application tries to find faces in the webcam image and match them against images in an id folder using deep neural networks.
+Then if identified face is not in classified by the model, That person is detecyted as intruder. Notification along with Intruder image is sent to the admin
 
 ## Libraries versions
 * python == 3.7.1
@@ -35,7 +36,7 @@ E.g. id folder named `ids` containing subfolders `Adam` and `Eve`, each containi
 │   ├── Rance
 │   │   ├── Rance0.png
 ```
-Download and unpack the [model](https://drive.google.com/file/d/0B5MzpY9kBtDVZ2RpVDYwWmxoSUk) to a folder and run `python3 main.py ./folder/model.pb ./ids/` to start the program. Make sure to replace `./folder/model.pb` with the path to the downloaded model.
+Download and unpack the [model](https://drive.google.com/drive/folders/1nIw5ESCZ8Edd-hLSBXS23_X0kgvj2JrM?usp=sharing) to a folder and run `python3 main.py ./folder/model.pb ./ids/` to start the program. Make sure to replace `./folder/model.pb` with the path to the downloaded model.
 
 Visualization hotkeys:
 *   l - toggle facial landmarks
