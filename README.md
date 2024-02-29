@@ -3,13 +3,13 @@ Webcam face recognition using tensorflow and opencv.
 The application tries to find faces in the webcam image and match them against images in an id folder using deep neural networks.
 
 ## Libraries versions
-python == 3.7.1
-tensorflow == 1.15
-easygui
-mtcnn
-scikitlearn
-protobuf == 3.2.0
-telepot
+* python == 3.7.1
+* tensorflow == 1.15
+* easygui
+* mtcnn
+* scikitlearn
+* protobuf == 3.2.0
+* telepot
 ## Dependencies
 *   OpenCv
 *   Tensorflow
