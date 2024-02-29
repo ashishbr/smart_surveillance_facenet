@@ -44,4 +44,4 @@ Visualization hotkeys:
 *   f - toggle frames per second
 *   s - save image face detections to id folder
 
-![alt text](https://github.com/habrman/FaceRecognition/blob/master/example.png)
+![alt text](https://github.com/ashishbr/smart_surveillance_facenet/blob/main/example.png?raw=true) 
