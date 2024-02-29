@@ -29,11 +29,11 @@ E.g. id folder named `ids` containing subfolders `Adam` and `Eve`, each containi
 
 ```bash
 ├── ids
-│   ├── Adam
-│   │   ├── Adam0.png
-│   │   ├── Adam1.png
-│   ├── Eve
-│   │   ├── Eve0.png
+│   ├── Ashish
+│   │   ├── Ashish0.png
+│   │   ├── Ashish1.png
+│   ├── Rance
+│   │   ├── Rance0.png
 ```
 Download and unpack the [model](https://drive.google.com/file/d/0B5MzpY9kBtDVZ2RpVDYwWmxoSUk) to a folder and run `python3 main.py ./folder/model.pb ./ids/` to start the program. Make sure to replace `./folder/model.pb` with the path to the downloaded model.
 
