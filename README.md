@@ -2,12 +2,24 @@
 Webcam face recognition using tensorflow and opencv.
 The application tries to find faces in the webcam image and match them against images in an id folder using deep neural networks.
 
+## Libraries versions
+python == 3.7.1
+tensorflow == 1.15
+easygui
+mtcnn
+scikitlearn
+protobuf == 3.2.0
+telepot
 ## Dependencies
 *   OpenCv
 *   Tensorflow
 *   Scikit-learn
 *   easygui
-
+*   
+## Telegram bots
+1. BotFather
+2. IdBot
+   
 ## Inspiration
 Models, training code and inspriation can be found in the [facenet](https://github.com/davidsandberg/facenet) repository.
 [Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/index.html) are used for facial and landmark detection while an [Inception Resnet](https://arxiv.org/abs/1602.07261) is used for ID classification.
