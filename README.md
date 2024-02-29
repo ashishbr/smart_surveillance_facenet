@@ -10,12 +10,8 @@ The application tries to find faces in the webcam image and match them against i
 * scikitlearn
 * protobuf == 3.2.0
 * telepot
-## Dependencies
-*   OpenCv
-*   Tensorflow
-*   Scikit-learn
-*   easygui
-*   
+* OpenCv
+  
 ## Telegram bots
 1. BotFather
 2. IdBot
