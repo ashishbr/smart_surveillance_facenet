@@ -9,7 +9,7 @@ Then if identified face is not in classified by the model, That person is detecy
 * easygui
 * mtcnn
 * scikitlearn
-* protobuf == 3.2.0
+* protobuf == 3.20
 * telepot
 * OpenCv
   
